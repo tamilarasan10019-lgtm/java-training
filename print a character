@@ -1,0 +1,11 @@
+import java.util.*;
+public class Avengers
+{
+    public static void main(String[] args)
+    {
+        char a;
+        Scanner yt=new Scanner(System.in);
+        a=yt.next().charAt(0);
+        System.out.println(a);
+    }
+}
