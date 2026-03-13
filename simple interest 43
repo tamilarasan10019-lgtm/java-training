@@ -1,0 +1,15 @@
+import java.util.*;
+public class Square
+{
+    public static void main(String[] args)
+    {
+      int a,b,c,d;
+        Scanner ssm=new Scanner(System.in);
+        a=ssm.nextInt();
+        b=ssm.nextInt();
+        c=ssm.nextInt();
+        d=(a*b*c)/100;
+        System.out.println(d);
+        
+     }
+}
