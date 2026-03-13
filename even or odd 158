@@ -1,0 +1,15 @@
+import java.util.*;
+public class Evenorodd
+    {
+    public static void main(String[] args)
+    {
+        int a;
+         Scanner even=new Scanner(System.in);
+        a=even.nextInt();
+        if(a%2==0)
+            System.out.println("Even");
+        else
+             System.out.println("Odd");
+    }
+}
+            
