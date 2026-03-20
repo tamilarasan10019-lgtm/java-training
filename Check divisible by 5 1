@@ -1,0 +1,15 @@
+import java.util.*;
+public class Pencil{
+    public static void main(String[] arg)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a;
+        a=sc.nextInt();
+        if(a%5==0){
+            System.out.print("Yes");
+        }
+        else{
+            System.out.print("No");
+        }
+        }
+        }
