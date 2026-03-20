@@ -1,0 +1,23 @@
+import java.util.*;
+public class Laptop
+{
+    public static void main(String[] args)
+    {
+        Scanner sw=new Scanner(System.in);
+        int a;
+        a=sw.nextInt();
+        if(a>=49)
+        {
+            System.out.println("Pass");
+        }
+        else if(a<=35)
+        {
+            System.out.println("Fail");
+        }
+        else
+        {
+            System.out.println();
+        }
+            
+        }
+    }
