@@ -1,0 +1,16 @@
+import java.util.*;
+public class Tar
+{
+    public static void main(String[] arg)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a;
+        a=sc.nextInt();
+        if(a>=18){
+            System.out.println("Eligible");
+        }
+        else{
+            System.out.println("Not Eligible");
+        }
+        }
+    }
